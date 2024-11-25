@@ -2,24 +2,27 @@
 
 :root {
     --raisin-black: #272727ff;
-    --buff: #d4aa7dff;
-    --sunset: #efd09eff;
-    --beige: #d2d8b3ff;
-    --cadet-gray: #90a9b7ff;
+    --buff: rgba(212, 170, 125, 0.9);
+    --sunset: rgba(239, 208, 158, 0.9);
+    --beige: rgba(210, 216, 179, 0.9);
+    --cadet-gray: rgba(144, 169, 183, 0.9);
     font-family: "Leckerli One", cursive;
     font-weight: 400;
     font-style: normal;
 }
 
+h1,h2,h3,h4,h5,h6,p,a {
+    margin: 0px;
+}
+
 body {
-    background-image:url(coffee_bg.webp);
+    background-image:url(coffee_bg.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     margin: 0px;
 }
 
 .body_cover {
-    background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
     width: 100%;
     height: 100%;
@@ -36,10 +39,12 @@ body {
     background-color: var(--beige);
 }
 
-.header h1 {
+
+
+.header-text h1 {
     margin: 0px;
     margin-top: 2px;
-    margin-left: 25px;
+    margin-left: 85px;
 }
 
 .header a {
@@ -50,8 +55,15 @@ body {
 .header p {
     clear: both;
     margin: -7px;
-    margin-left: 35px;
+    margin-left: 100px;
     color: var(--raisin-black);
+}
+
+.header img {
+    position: inherit;
+    clear: both;
+    display: inline;
+    margin-left: 15px;
 }
 
 .header-menu {
@@ -90,4 +102,43 @@ body {
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 10%;
+}
+
+.vom-button {
+    padding: 15px;
+    background-color: var(--buff);
+    position: absolute;
+    border-radius: 25px;
+}
+
+.vom-button a {
+    text-decoration: none;
+    color: var(--raisin-black);
+}
+
+.footer {
+    position: fixed;
+    width: 70%;
+    height: 90px;
+    border-radius: 15px 50px 15px 50px;
+    transform: translate(-50%, 0%);
+    left: 50%;
+    bottom: 2%;
+    background-color: var(--beige);
+}
+
+.contact-footer {
+    margin-left: 125px;
+}
+
+.logo-footer {
+    margin-left: 15px;
+    position: inherit;
+}
+
+.copy-footer {
+    float: right;
+    margin-top: -60px;
+    margin-right: 50px;
+    font-size: 120%;
 }
