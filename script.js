@@ -9,6 +9,6 @@ window.addEventListener("load", () => {
         setTimeout(() => {
             loadingScreen.style.display = "none";
             mainContent.style.display = "block";
-        }, 300);
+        }, 150);
     }, gifDuration);
 });
