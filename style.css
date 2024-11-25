@@ -94,6 +94,7 @@ body {
     left: 50%;
     top: 50%;
     background-color: var(--beige);
+    box-shadow: 15px 15px 10px 0px var(--raisin-black);
 }
 
 .container h1 {
@@ -109,6 +110,18 @@ body {
     background-color: var(--buff);
     position: absolute;
     border-radius: 25px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 55%;
+    transition: 0.3s;
+    box-shadow: 2px 2px 2px 0px var(--sunset);
+}
+
+.vom-button:hover {
+    background-color: var(--sunset);
+    box-shadow: 2px 2px 2px 0px var(--buff);
+    transition: 0.3s;
+    color: var(--cadet-gray);
 }
 
 .vom-button a {
@@ -116,7 +129,7 @@ body {
     color: var(--raisin-black);
 }
 
-.footer {
+.footer { 
     position: fixed;
     width: 70%;
     height: 90px;
@@ -128,7 +141,7 @@ body {
 }
 
 .contact-footer {
-    margin-left: 125px;
+    margin-left: 105px;
 }
 
 .logo-footer {
