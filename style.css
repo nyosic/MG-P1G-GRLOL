@@ -6,6 +6,9 @@
     --sunset: #efd09eff;
     --beige: #d2d8b3ff;
     --cadet-gray: #90a9b7ff;
+    font-family: "Leckerli One", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
 body {
@@ -24,7 +27,7 @@ body {
 
 .header {
     position: fixed;
-    width: 90%;
+    width: 70%;
     height: 70px;
     border-radius: 15px 50px 15px 50px;
     transform: translate(-50%, 0%);
@@ -36,11 +39,8 @@ body {
 .header h1 {
     margin: 0px;
     color: beige;
-    margin-top: 10px;
-    margin-left: 60px;
-    font-family: "Leckerli One", cursive;
-    font-weight: 400;
-    font-style: normal;
+    margin-top: 2px;
+    margin-left: 25px;
 }
 
 .header a {
@@ -49,6 +49,25 @@ body {
 }
 
 .header p {
+    clear: both;
     margin: -7px;
-    font-size: 90%;
+    margin-left: 35px;
+    color: beige;
+}
+
+.header-menu {
+    clear: both;
+    float: right;
+    position: relative;
+    margin-right: 35px;
+    margin-top: -37px;
+}
+
+.header-menu a {
+    font-size: 150%;
+    margin-left: 15px;
+}
+
+.header-menu a:hover {
+    color: rgba(245, 245, 220, 0.493);
 }
