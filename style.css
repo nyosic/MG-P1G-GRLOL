@@ -1,4 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+
+:root {
+    --raisin-black: #272727ff;
+    --buff: #d4aa7dff;
+    --sunset: #efd09eff;
+    --beige: #d2d8b3ff;
+    --cadet-gray: #90a9b7ff;
+}
+
 body {
-    background-color:  gray;
+    background-image:url(coffee_bg.webp);
+    background-repeat: no-repeat;
+    background-size:cover;
     margin: 0px;
+}
+
+.body_cover {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    position: fixed;
+    width: 90%;
+    height: 70px;
+    border-radius: 15px 50px 15px 50px;
+    transform: translate(-50%, 0%);
+    left: 50%;
+    top: 2%;
+    background-color: var(--buff);
+}
+
+.header h1 {
+    margin: 0px;
+    color: beige;
+    margin-top: 10px;
+    margin-left: 35px;
+    font-family: "Leckerli One", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
