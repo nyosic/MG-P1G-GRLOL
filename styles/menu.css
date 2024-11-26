@@ -1,0 +1,78 @@
+.menu-tabs {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    position: relative;
+    z-index: 10;
+}
+
+.menu-tabs .tab {
+    margin: 0 10px;
+    margin-top: 100px;
+    padding: 12px 25px;
+    border: none;
+    cursor: pointer;
+    background-color: #d9a066;
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: bold;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease-in-out;
+    z-index: 10;
+    position: relative;
+}
+
+.menu-tabs .tab:hover {
+    background-color: #a67647;
+    color: #fff;
+    transform: scale(1.05);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.menu-tabs .tab.active {
+    background-color: #6c4f3d;
+    color: #fff;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.02);
+}
+
+.menu-section {
+    display: none;
+    padding: 20px;
+    margin: 20px auto;
+    margin-top: 60px;
+    border-radius: 10px;
+    max-width: 600px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.menu-section.show {
+    display: block;
+    opacity: 1;
+}
+
+.menu-section.hide {
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.menu-section h2 {
+    text-align: center;
+    color: #5c462b;
+}
+
+.menu-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-section ul li {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #4d4d4d;
+    text-align: center;
+}
