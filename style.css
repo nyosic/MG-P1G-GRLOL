@@ -297,7 +297,7 @@ body {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
     .about-us-images {
         flex-direction: column;
@@ -309,7 +309,7 @@ body {
     }
 }
 
-/* Fade-in effect */
+
 #about-us {
     opacity: 0;
     transform: translateY(50px);
@@ -321,7 +321,7 @@ body {
     transform: translateY(0);
 }
 
-/* Highlight effect */
+
 .highlight {
     background-color: #ffebcd;
     transition: background-color 0.3s ease;
