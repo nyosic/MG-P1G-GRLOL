@@ -47,17 +47,20 @@
     max-width: 600px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     opacity: 0;
-    transition: all 0.3s ease-in-out;
+    visibility: hidden;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
 }
 
 .menu-section.show {
     display: block;
     opacity: 1;
+    visibility: visible;
 }
 
 .menu-section.hide {
     opacity: 0;
     transition: all 0.3s ease-in-out;
+    visibility: hidden;
 }
 
 .menu-section h2 {
