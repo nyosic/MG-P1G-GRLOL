@@ -28,8 +28,55 @@
         </div>
     </div>
     <div class="container">
+        <nav class="menu-tabs">
+            <button class="tab" onclick="showSection('brunch')">Brunch</button>
+            <button class="tab" onclick="showSection('lunch')">Lunch</button>
+            <button class="tab" onclick="showSection('dinner')">Dinner</button>
+            <button class="tab" onclick="showSection('drinks')">Drinks</button>
+        </nav>
         <div class="container-scrollable">
+                    <div class="menu-category">
+                        
+                        <main>
+                            <section id="brunch" class="menu-section">
+                                <h2>Brunch</h2>
+                                <ul>
+                                    <li>Fruit Salad - $3</li>
+                                    <li>Avocado Toast - $3.65</li>
+                                    <li>Pancakes with Maple Syrup - $4.4</li>
+                                </ul>
+                            </section>
 
+                            <section id="lunch" class="menu-section">
+                                <h2>Lunch</h2>
+                                <ul>
+                                    <li>Tomato soup - $4.4</li>
+                                    <li>Caesar salad - $5.4</li>
+                                    <li>Carbonara noodles - $7</li>
+                                </ul>
+                            </section>
+
+                            <section id="dinner" class="menu-section">
+                                <h2>Dinner</h2>
+                                <ul>
+                                    <li>Pumpkin cream - $5</li>
+                                    <li>Salmon with Vegetables - $10</li>
+                                    <li>Steak with Potato Puree - $12</li>
+                                </ul>
+                            </section>
+
+                            <section id="drinks" class="menu-section">
+                                <h2>Drinks</h2>
+                                <ul>
+                                    <li>Fruit tea - $2.5</li>
+                                    <li>Cappuccino - $3</li>
+                                    <li>Hot Chocolate - $3.5</li>
+                                </ul>
+                            </section>
+
+                        </main>
+
+                    </div>
         </div>
     </div>
     <div class="footer">
@@ -48,5 +95,6 @@
     </div>
     </div>
     <script src="script.js"></script>
+    <script src="scriptmenu.js"></script>
 </body>
 </html>
